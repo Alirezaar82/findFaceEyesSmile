@@ -1,10 +1,6 @@
 import cv2 as cv
 import numpy as np
 
-
-
-
-
 face_cascade = cv.CascadeClassifier('haarcascade_frontalface_default.xml')
 smile_cascade = cv.CascadeClassifier('haarcascade_smile.xml')
 eye_cascade = cv.CascadeClassifier('haarcascade_eye.xml')
